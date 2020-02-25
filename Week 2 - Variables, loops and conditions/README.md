@@ -87,10 +87,12 @@ Rewrite task 3 and write down the age with some mean comment e.g.:
      3 - Barbecue
      4 - Langos
 
-2 - Add the library stdlib.h to the header
+2 - Add the libraries stdlib.h and time.h to the header
 
 3 - Add the following line of code (this will generate a random number between 1 and 4):
 
+     time_t t;
+     srand((unsigned) time((&t)));
      int n = rand() % 5;
 
 4 - Depending on the value of n, print a mean comment

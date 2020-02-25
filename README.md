@@ -1,4 +1,4 @@
-# Practices2019
+# Practices2020
 
 Welcome to the Imperative Programming Course for the first semester of 2019-2020 spring semester.
 
