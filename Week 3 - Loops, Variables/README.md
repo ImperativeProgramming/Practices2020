@@ -109,5 +109,5 @@ The names we are going to use now on:
 ![Function structure](https://www.geeksforgeeks.org/wp-content/uploads/Function-Prototype-in-c.png)
 
 ## Homeworks
-- Make a function called is_even, takes an integer as parameter and returns true in case the number is an even number otherwise returns false
+- Make a function called is_even, takes an integer as parameter and returns 1 in case the number is an even number otherwise returns 0
 - Write a program which adds two positive integers and produces a result which is negative! Explain what happens!
