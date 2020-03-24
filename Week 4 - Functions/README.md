@@ -206,5 +206,8 @@ Or
 
     We can make scanf() to read a new line by using an extra “\n”, i.e., scanf(“%d\n”, &x) .
 *Or two*
-    
+
     We can add a getchar() after scanf() to read an extra newline.
+
+## Homework
+Finish the list 1 of exercises
