@@ -124,5 +124,23 @@ Example with Array:
     }
 
 ### Homework
- - Implement a list with 5 struct People.
- - Sort the 5 struct people by year of birth
+ - Implement a list with 5 struct Point (Being this a point w/ X, y);
+ - Sort the 5 struct point (first evaluate x then y).
+
+
+Example:
+
+      // The points 
+      p[0]={2,3}
+      p[1]={4,5}
+      p[2]={1,5}
+      p[3]={4,3}
+      p[4]={1,2}
+
+      // Should become
+
+      p[0]={1,2}
+      p[1]={1,5}
+      p[2]={2,3}
+      p[3]={4,3}
+      p[4]={4,5}
