@@ -67,9 +67,35 @@ Let's see graphically what happened:
 ### Task 1
 1 - Create a swap function that takes two char pointers as parameter and swap their values;
 
+    char name[] =  "George";
+    char secondName[] = "Fillip";
+
+    swap(&name, &secondName);
+    //name = Fillip
+    //secondName = George
+
 2 - Create a **revert** function that takes two arrays of char and reverts its order;
 
+    revert(&name, &secondName);
+    // name = pilliF
+    // secondName = egroeG
+
 3 - Create a function that takes two 3X3 matrices and prints out the [multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication) of the two matrices.
+
+    int m1[3][3];
+    int m2[3][3];
+
+    m1[0][0] = 1;
+    m2[0][1] = 1;
+    // [...]
+    multiplyMatrix(&m1, &m2);
+
+You choose how it will print out, e.g.:
+
+    N N N
+    N N N
+    N N N    
+
 
 
 
